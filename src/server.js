@@ -33,7 +33,7 @@ app.use("/", adminRouter);
         await connection();
 
         app.listen(port, () => {
-            console.log(`Server is running on port ${port}`);
+            console.log(`Server is running on ports ${port}`);
         });
     } catch (error) {
         console.log(">>> Error connect to DB: ", error);
