@@ -12,7 +12,7 @@ const recruiterRouter = require("./routes/recruiterRouter");
 const adminRouter = require("./routes/adminRouter");
 
 const app = express();
-const port = process.env.PORT || 8888;
+const port = 8888;
 
 app.use(cors({ origin: '*' }));
 app.use(cookie_parser());
